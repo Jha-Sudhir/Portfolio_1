@@ -1,0 +1,11 @@
+.jumbotron{
+  background-image: url("../img/background.jpg");
+  background-size: cover;
+  background-position: center;
+}
+.jumbotron p{
+  color: white;
+}
+.jumbotron a{
+  color: black;
+}

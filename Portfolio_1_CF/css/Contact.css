@@ -1,0 +1,36 @@
+*{box-sizing: border-box}
+.holder{
+  margin: 0 auto;
+  width: 80%
+}
+.contact{
+  font-family:'Roboto Slab', serif;
+  text-align: center;
+  color:#6B5724;
+  font-weight: 200;
+}
+#Email{
+
+  font-weight: bold;
+  font-size: 2em;
+  text-align: center;
+  margin-bottom: 100px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+#address{
+
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 500px;
+  margin-right: 100px;
+  margin-left: 50px;
+}
+
+body{
+  background-image: url("../img/code.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 50%;
+}

@@ -1,0 +1,84 @@
+*{box-sizing: border-box}
+.container{
+  margin: 0 auto;
+  width: 80%
+}
+.header h1 {
+  padding:30px;
+  text-align: center;
+}
+/* .column{
+  display: inline-block;
+  float:left;
+  width: 33.333333%;
+  margin-bottom:40px;
+  margin-top:10px;
+} */
+.my-story{
+  padding-top: 60px;
+  clear:both;
+}
+/* .image img{
+  width: 100%;
+} */
+
+/* Typography */
+.header h1 {
+	font-family:Century Gothic,CenturyGothic,AppleGothic,sans-serif;
+
+}
+.Intro h2 {
+	font-family: Verdana,Geneva,sans-serif;
+  text-align:center;
+}
+.Intro p{
+  font-family: Verdana,Geneva,sans-serif;
+  font-size: 2em;
+  font-weight: 400;
+
+}
+.Skills h3{
+  text-align:center;
+  text-transform:uppercase;
+  font-family: Verdana,Geneva,sans-serif;
+}
+#id{
+  margin-left: 50px;
+}
+.about{
+  background-color: #fffeea;
+  color: #34495e;
+}
+.Skills{
+  background-color: #5AD4C2;
+  color: #FFF;
+}
+/* Navigation */
+.left{float: left; }
+.right{float: right; }
+
+nav{
+  border: 1px solid #999;
+  display: block;
+  background-color: #FFE4CB;
+  position: fixed;
+  width: 100% !important;
+  text-align: center;
+  top: 0;
+  left: 0;
+  padding:10px;
+
+}
+nav a{
+  color: #34495e;
+}
+nav a:hover{
+  background-color: #404F6B;
+  text-decoration: none;
+  transition: background-color 600ms;
+}
+.container .content{
+  background-color:#fffeea;
+  color: #34495e;
+  padding-top: 10px;
+}
